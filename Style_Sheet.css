@@ -1,26 +1,38 @@
-.res-nightmode .usertext-body ul li p strong {color:navy;}
-.res-nightmode .linkinfo * {color:white;}
-.res-nightmode .linkinfo .upvotes * {color:orangeRed!important;}
-.res-nightmode .linkinfo .downvotes * {color:#5f99cf!important;}
-.res-nightmode label[for="subRedditStyleCheckbox"] {color:#ccc!important;}
+.res-nightmode .usertext-body ul li p strong {
+   color: #000080;
+}
+.res-nightmode .linkinfo * {
+   color: #FFF;
+}
+.res-nightmode .linkinfo .upvotes * {
+   color: #FF4500 !important;
+}
+.res-nightmode .linkinfo .downvotes * {
+   color: #5f99cf!important;
+}
+.res-nightmode label[for="subRedditStyleCheckbox"] {
+   color: #CCC !important;
+}
 /* Sets background of the header to maroon, removes the light blue bottom border */
 #header {
    	background: #0064cd url(%%grid%%) top left repeat;
-    }
+}
 #sr-header-area {
-    background: #222222;
-    color: #ffffff
-    }
-#sr-header-area a {color: #FFFFFF}
+    background: #222;
+    color: #FFF;
+}
+#sr-header-area a {
+   color: #FFF
+}
 .titlebox h1 a {
-color: white;
+color: #FFF;
 }
 #sr-header-area div span, #sr-header-area ul li a {
-    color: #ffffff
-    }
+    color: #FFF;
+}
 #sr-header-area ul li a:hover {
-    color: #ffff00
-    }
+    color: #ffff00;
+}
 /* Make the FWP name bigger, golder, and prettier */
 span.redditname, span.pagename {
     font-variant: normal;
@@ -30,30 +42,30 @@ span.redditname, span.pagename {
     font-weight: normal;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #e4cd02;
-    text-transform: capitalize
-    }
+    text-transform: capitalize;
+}
 /* Hide the machine name of the reddit */
 span.hover.pagename.redditname a {
-    color: #fff !important;
+    color: #FFF !important;
     content: "DarkNetPlan";
     text-shadow: none;
-    visibility: hidden
-    }
+    visibility: hidden;
+}
 /* Display a human-readable one instead */
 span.hover.pagename.redditname a:before {
-    color: #fff;
+    color: #FFF;
     content: "DarkNetPlan";
     text-shadow: 1px 1px 2px #888;
-    visibility: visible
-    }
+    visibility: visible;
+}
 .titlebox .bottom {
-border-top: 1px solid white;
-padding-top: 2px;
-font-size: 80%;
-color: white;
+   border-top: 1px solid #FFF;
+   padding-top: 2px;
+   font-size: 80%;
+   color: #FFF;
 }
 .titlebox .bottom a {
-color: white;
+   color: #FFF;
 }
 /* Scooch the header image over to make a nicer magin */
 #header-img-a {
@@ -61,7 +73,7 @@ color: white;
     padding-top: 6px;
     padding-bottom: 6px;
     display: inline-block
-    }
+}
 /* Alters the appearance of the tabs to appear on their own line with a very dark grey background */
 .tabmenu {
     display: inline-block;
@@ -70,16 +82,16 @@ color: white;
     padding-left: 17px;
     background-color: #333;
     border-bottom: 1px solid #444;
-    border-top: 1px solid #2a2a2a
-    }
+    border-top: 1px solid #2a2a2a;
+}
 /* Pull the tab items to the front of the visibility stack and give them some spacing */
 ul.tabmenu li {
     z-index: 99;
     padding-right: 1px;
     display: block;
     float: left;
-    margin-right: 1px
-    }
+    margin-right: 1px;
+}
 /* Make the currently selected tab a little lighter than the rest */
 ul.tabmenu li.selected a {
     border-width: 1px;
@@ -87,8 +99,8 @@ ul.tabmenu li.selected a {
     border-color: #555 #444 #444 #444;
     background-color: #666 !important;
     border-bottom-style: solid !important;
-    border-bottom-color: #666 !important
-    }
+    border-bottom-color: #666 !important;
+}
 /* Styles the tabs */
 ul.tabmenu li a, form#newlink ul.tabmenu.formtab li a {
     background-color: #5A5A5A;
@@ -104,19 +116,19 @@ ul.tabmenu li a, form#newlink ul.tabmenu.formtab li a {
     border-style: solid;
     border-color: #555 #444 #444 #444;
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px
-    }
+    border-top-right-radius: 3px;
+}
 ul.tabmenu li a:hover {
-    color: #DDD
-    }
+    color: #DDD;
+}
 /* Draw attention to the NEW tab */
 ul.tabmenu li a[href="http://www.reddit.com/r/darknetplan/new/"] {
     /* color: #ede329; */
-    color: #e4cd02
-    }
+    color: #e4cd02;
+}
 ul.tabmenu li a[href="http://www.reddit.com/r/darknetplan/new/"]:after {
-    content: " POSTS"
-    }
+    content: " POSTS";
+}
 /* Subheading pulled from an <h6> element in the sidebar, placed under the nav tabs */
 .titlebox .usertext-body .md h6 {
     display: block;
@@ -142,22 +154,22 @@ ul.tabmenu li a[href="http://www.reddit.com/r/darknetplan/new/"]:after {
     border-top-style: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    background-color: #666
-    }
+    background-color: #666;
+}
 /* Allow absolute positioning to page */
 .titlebox form {
     position: static
-    }
+}
 /* Inactive link */
 .titlebox .usertext-body .md h6 a, .titlebox .usertext-body .md h6 a:link, .titlebox .usertext-body .md h6 a:visited {
     color: #CCC;
-    text-shadow: 1px 1px 2px #000 !important
-    }
+    text-shadow: 1px 1px 2px #000 !important;
+}
 /* Link on hover */
 .titlebox .usertext-body .md h6 a:hover {
     color: #DDD;
-    text-shadow: 1px 1px 2px #000 !important
-    }
+    text-shadow: 1px 1px 2px #000 !important;
+}
 /* Preface for the subheading box */
 .titlebox .usertext-body .md h6 a:before {
     content: "NOTE";
@@ -171,8 +183,8 @@ ul.tabmenu li a[href="http://www.reddit.com/r/darknetplan/new/"]:after {
     color: #e4cd02;
     border-right: 1px solid #444;
     padding-right: .6em;
-    margin-right: .6em
-    }
+    margin-right: .6em;
+}
 /* Move content out of the way */
 div.sitetable.linklisting {
     margin-top: 15px;
@@ -182,46 +194,46 @@ div.sitetable.linklisting {
     margin-left: 15px;
     padding-top: 12px;
     padding-left: 11px;
-    padding-right: 11px
-    }
+    padding-right: 11px;
+}
 div.linklisting div.link {
-    margin-left: -6px
-    }
+    margin-left: -6px;
+}
 body > div.content {
     margin-top: 38px;
     margin-right: 330px;
-    padding-right: 20px
-    }
+    padding-right: 20px;
+}
 
 .linkinfo {
-padding: 5px;
-color: #333;
-border: 1px solid #5F99CF;
-background-color: #EFF7FF;
-font-family: arial,helvetica,sans-serif;
-font-size: larger;
--moz-border-radius: 3px;
--webkit-border-radius: 3px;
-border-radius: 3px;
+   padding: 5px;
+   color: #333;
+   border: 1px solid #5F99CF;
+   background-color: #EFF7FF;
+   font-family: arial,helvetica,sans-serif;
+   font-size: larger;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
 }
 label {
-cursor: default;
-color: #333;
+   cursor: default;
+   color: #333;
 }
 /* Fix admin stuff */
 .sheets {
     /* margin-right: 345px; */
-    width: 100%
-    }
+    width: 100%;
+}
 div.stylesheet-customize-container {
-    margin-top: 50px
-    }
+    margin-top: 50px;
+}
 #preview-table {
     /* margin-right: 345px; */
-    }
+}
 .side .icon-menu a {
-    background-color: transparent
-    }
+    background-color: transparent;
+}
 /* Make the rules and related section consistent with the moderators and recently viewed links section */
 .titlebox .usertext-body h5 {
     margin: 0;
@@ -229,8 +241,8 @@ div.stylesheet-customize-container {
     font-size: 130%;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 1.2em
-    }
+    margin-top: 1.2em;
+}
 .titlebox .usertext-body ul {
     border-radius: 3px;
     border-color: #9f9976 #9f9976 #a4a085 #a4a085;
@@ -242,8 +254,8 @@ div.stylesheet-customize-container {
     padding-right: 15px;
     padding-bottom: 8px;
     margin: 0;
-    list-style-type: decimal
-    }
+    list-style-type: decimal;
+}
 /* Since half the modmail we get is people who can't find the post button, kill the ugly old post button and make a new one that doesn't look like a section header.  Uses the same trick as the alert box, except styles an <ol> instead of an <h6>.  Don't put other ordered lists in the sidebar! */
 
 .titlebox .usertext-body .md ol li {
@@ -261,39 +273,39 @@ div.stylesheet-customize-container {
     border-style: solid;
     border-color: #555 #444 #444 #444;
     border-radius: 3px;
-    background-color: #666 !important
-    }
+    background-color: #666 !important;
+}
 .titlebox .usertext-body .md ol li a {
     color: #CCC;
-    text-shadow: 1px 1px 2px #000 !important
-    }
+    text-shadow: 1px 1px 2px #000 !important;
+}
 .titlebox .usertext-body .md ol li a:hover {
     color: #DDD;
-    text-shadow: 1px 1px 2px #000 !important
-    }
+    text-shadow: 1px 1px 2px #000 !important;
+}
 .titlebox .usertext-body .md ol li a:before {
     color: #e4cd02;
     content: "POST";
     border-right: 1px solid #444;
     padding-right: .6em;
-    margin-right: .6em
-    }
+    margin-right: .6em;
+}
 .titlebox .usertext-body .md ol li + li a:before {
     color: #e4cd02;
     content: "CREATE";
     border-right: 1px solid #444;
     padding-right: .6em;
-    margin-right: .6em
-    }
+    margin-right: .6em;
+}
 div.sidebox.create {
-    display: none
-    }
+    display: none;
+}
 div.sidebox.submit {
-    content: "submit"
-    }
+    content: "submit";
+}
 div.sidecontentbox h1 {
-    color: white
-    }
+    color: #FFF;
+}
 div.sidecontentbox .content {
     border-radius: 3px;
     border-color: #9f9976 #9f9976 #a4a085 #a4a085;
@@ -303,8 +315,8 @@ div.sidecontentbox .content {
     padding-top: 8px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 8px
-    }
+    padding-bottom: 8px;
+}
 div.usertext-body a[href="#"] {
     display: block;
     width: 298px;
@@ -315,44 +327,43 @@ div.usertext-body a[href="#"] {
     border-width: 1px;
     border-style: solid;
     margin-top: -4px;
-    margin-bottom: 1.3em
-    }
+    margin-bottom: 1.3em;
+}
 /* Darken the main background */
 body {
-    background-color: #f6f6f6
-    }
-
+    background-color: #f6f6f6;
+}
 .thing .title, .thing .title.loggedin {
-    color: #333333
-    }
+    color: #333;
+}
 .thing .title.loggedin.click {
-    color: #444
-    }
+    color: #444;
+}
 .thing .title.loggedin:visited, .thing .title.loggedin.click:visited {
    color: #AAA;
 }
 .thing .title.loggedin:hover, .thing .title.loggedin.click:hover {
-    text-shadow: 0px 0px 4px #EEE
-    }
+    text-shadow: 0px 0px 4px #EEE;
+}
 div.thing .keyHighlight {
     background-color: #f6f6f6;
     border: 1px solid #EEE;
     border-radius: 3px;
-    outline: none
+    outline: none;
     }
 .link.last-clicked {
     border-style: dotted;
-    border-color: #AAA
-    }
+    border-color: #AAA;
+}
 /* Reposition the content on submission pages */
 /* Hide the useless "you are submitting to" text */
 #sharelink_ + h1 {
-    visibility: hidden
-    }
+    visibility: hidden;
+}
 /* Scooch the tabs back to the edge of the page */
 form#newlink {
-    margin-left: -5px
-    }
+    margin-left: -5px;
+}
 /* Bring the tabs back up to the top where they belong */
 form#newlink > .tabmenu {
     display: block;
@@ -361,66 +372,66 @@ form#newlink > .tabmenu {
     padding-left: 20px;
     border-bottom-style: none;
     width: 120%;
-    height: 1.5em
-    }
+    height: 1.5em;
+}
 /* Fix up the tabs layout */
 form#newlink div.formtabs-content {
     border-top: 1px solid #444;
-    width: 100%
-    }
+    width: 100%;
+}
 form#newlink ul.tabmenu.formtab li {
-    padding-right: 6px
-    }
+    padding-right: 6px;
+}
 form#newlink ul.tabmenu.formtab li a {
-    font-size: 11px !important
-    }
+    font-size: 11px !important;
+}
 form#newlink ul.tabmenu.formtab li + li a {
-    color: #e4cd02
-    }
+    color: #e4cd02;
+}
 form#newlink ul.tabmenu.formtab li a:before {
-    content: "SUBMIT A "
-    }
+    content: "SUBMIT A ";
+}
 form#newlink ul.tabmenu.formtab li + li a:after {
-    content: " (SELF) POST"
-    }
+    content: " (SELF) POST";
+}
 /* Position the submission form */
 form#newlink div.spacer {
-    margin-left: 20px
-    }
+    margin-left: 20px;
+}
 form#newlink > div.formtabs-content > div:first-child {
     margin-top: 29px !important;
-    width: 520px
-    }
+    width: 520px;
+}
 /* Encourage self-posts */
 div#link-desc:after {
     content: " It is STRONGLY RECOMMENDED to submit a text (self) post rather than a link.  Just click that handy SUBMIT A TEXT (SELF) POST tab up above.";
-    font-weight: bold
-    }
+    font-weight: 900;
+}
 .tabmenu {
- list-style-type:none;
- white-space:nowrap;
- display:inline-block;
- margin-top:5px;
- vertical-align:bottom;
+    list-style-type:none;
+    white-space:nowrap;
+    display:inline-block;
+    margin-top:5px;
+    vertical-align:bottom;
 }
 .tabmenu li {
- display:inline;
- font-weight:bold;
- margin:0px 3px;
+    display:inline;
+    font-weight:900;
+    margin:0px 3px;
 }
 .tabmenu li a {
- padding:2px 6px 0 6px;
- background-color:#eff7ff;
- }
+    padding:2px 6px 0 6px;
+    background-color:#eff7ff;
+}
 ol, ul {
-color: #333333
+   color: #333;
 }
 .tabmenu li.selected a{
- color: #99CC00;
- background-color:white;
- border:1px solid #5f99cf;
- border-bottom:1px solid white;
- z-index:100;
+    color: #99CC00;
+    background-color: #FFF;
+    border:1px solid #5f99cf;
+    border-bottom:1px solid #FFF;
+    z-index:100;
 }
 /* Fancy flair for fancy users */
 .flair-premium-flair {
@@ -432,9 +443,8 @@ color: #333333
     color: #FFED68 !important;
     border: 1px solid #CCC !important;
     border-radius: 3px !important;
-    font-weight: 200 !important
-    }
-
+    font-weight: 200 !important;
+}
 /* report button message - blatantly stolen from /r/netsec */
 .report-button:hover:before {
     position: absolute;
@@ -449,11 +459,11 @@ color: #333333
     font-size: 10px;
     font-weight: normal;
     margin-left: 5px;
-    margin-top: 5px
-    }
+    margin-top: 5px;
+}
 
 .srdrop {
-    background-color: #000000;
+    background-color: #000;
 }
 
 
@@ -465,8 +475,7 @@ color: #333333
 |                               |
 |------------------------------*/
 
-.md pre
-{
+.md pre {
     background:url(%%codebg%%) top left repeat;
     border: 1px solid #FF7722;
     border-left: 31px solid #FF7722;
@@ -476,27 +485,24 @@ color: #333333
     font-family:"Courier New",courier,monospace;
 
 }
-.md pre code
-{
+.md pre code {
     padding:15px;
     overflow:auto;
     display:block;
     line-height: 15px;
     font-family:"Courier New",courier,monospace;
 }
-.md pre:after
-{
+.md pre:after {
     position:absolute;
     content:"code:";
-    color:gray;
+    color: #808080;
     top:-20px;
     left:-30px;
 }
 
-.md pre:before
-{
+.md pre:before {
     height:100%;
-    color:white;
+    color: #FFF;
     position:absolute;
     left:-28px;
     width:25px;
