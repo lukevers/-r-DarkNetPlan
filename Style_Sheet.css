@@ -329,7 +329,7 @@ body {
     color: #444
     }
 .thing .title.loggedin:visited, .thing .title.loggedin.click:visited {
-   color: #EEE;
+   color: #AAA;
 }
 .thing .title.loggedin:hover, .thing .title.loggedin.click:hover {
     text-shadow: 0px 0px 4px #EEE
