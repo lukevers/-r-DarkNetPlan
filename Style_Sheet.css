@@ -188,7 +188,7 @@ ul.tabmenu li a[href="http://www.reddit.com/r/darknetplan/new/"]:after {
 /* Move content out of the way */
 div.sitetable.linklisting {
     margin-top: 15px;
-    background-color: #FEFEFE;
+    /* background-color: #FEFEFE; */
     border-radius: 5px;
     border: 1px solid #CCC;
     margin-left: 15px;
