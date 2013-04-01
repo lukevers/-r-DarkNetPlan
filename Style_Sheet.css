@@ -1,3 +1,17 @@
+a[href="http://narc.oti.cz/"] {
+    position: fixed;
+    background-color: #fff;
+    background-image: url(%%IRPC%%);
+    background-repeat: no-repeat;
+    background-position: top center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 214748300;
+    text-indent: -9999px
+    }
+
 .res-nightmode .usertext-body ul li p strong {
    color: #000080;
 }
