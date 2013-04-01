@@ -1,4 +1,4 @@
-a[href="http://narc.oti.cz/"] {
+a[href="http://jk.reddit.com/r/darknetplan"] {
     position: fixed;
     background-color: #fff;
     background-image: url(%%IRPC%%);
@@ -12,6 +12,9 @@ a[href="http://narc.oti.cz/"] {
     text-indent: -9999px
     }
 
+body:lang(jk) a[href="http://jk.reddit.com/r/darknetplan"] {
+    display: none !important;
+}
 .res-nightmode .usertext-body ul li p strong {
    color: #000080;
 }

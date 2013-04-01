@@ -56,4 +56,4 @@ Thanks to [bepraaa](/u/bepraaa) for [getting these definitions in order](http://
 
 Anything we missed? [Message us mods](http://www.reddit.com/message/compose?to=%2Fr%2Fdarknetplan) & we'll gladly fix it.
 
-[](http://narc.oti.cz/)
+[](http://jk.reddit.com/r/darknetplan)
