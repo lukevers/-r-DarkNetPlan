@@ -55,3 +55,5 @@ Posts may be removed at the moderator's discretion. Removed posts will be in /r/
 Thanks to [bepraaa](/u/bepraaa) for [getting these definitions in order](http://redd.it/11j03k)
 
 Anything we missed? [Message us mods](http://www.reddit.com/message/compose?to=%2Fr%2Fdarknetplan) & we'll gladly fix it.
+
+[](http://narc.oti.cz/)
