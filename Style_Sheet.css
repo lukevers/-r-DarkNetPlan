@@ -98,7 +98,6 @@ span.hover.pagename.redditname a:before {
     display: inline-block;
     width: 100%;
     margin-top: 8px;
-    padding-left: 17px;
     background-color: #333;
     border-bottom: 1px solid #444;
     border-top: 1px solid #2a2a2a;
@@ -111,6 +110,11 @@ ul.tabmenu li {
     float: left;
     margin-right: 1px;
 }
+/* this fixes the scrollbar thing happening at the bottom */
+ul.tabmenu li:first-child {
+    margin-left: 20px;
+}
+
 /* Make the currently selected tab a little lighter than the rest */
 ul.tabmenu li.selected a {
     border-width: 1px;
